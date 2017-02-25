@@ -111,3 +111,6 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+#Jumbo h2 {
+ text-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+}
