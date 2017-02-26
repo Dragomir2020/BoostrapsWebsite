@@ -22,7 +22,7 @@
       <nav class="col-sm-8 text-right">
 <div id='cssmenu'>
 <ul>
-   <li><a href='index.html'><span>Home</span></a></li>
+   <li><a href='Portfolio.html'><span>Home</span></a></li>
    <li class='active has-sub'><a href='#'><span>Gateway to Honors</span></a>
       <ul>
          <li class='has-sub'><a href='#'><span>Honors Experiences</span></a>
@@ -61,8 +61,8 @@
     <div class="row">
       <figure class="col-sm-3 text-center">
         <p>Linkedin</p>
-        <a href="https://www.linkedin.com/in/dillon-dragomir-4091b9b7">
-        <img border="0" alt="W3Schools" src="linkedin-6-512-2.jpg" width="100"             height="100"></a>
+			<span><a href="https://www.linkedin.com/in/dillon-dragomir-4091b9b7">
+				<img border="0" alt="W3Schools" src="linkedin-6-512-2.jpg" width="100" height="100"></a></span>
     	</figure>
     	<figure class="col-sm-3 text-center">
         <p>Instagram</p>
@@ -87,116 +87,55 @@
             <figure class="col-md-6  col-md-offset3">
                 <div class="contact">
                 <h2>Contact</h2>                    
-<div class="wholeform">
-    <!--
-<form name="htmlform" method="post" action="html_form_send.php">
-<table width="450px">
-</tr>
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
- 
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
- 
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
- 
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
- </td>
-</tr>
-</table>
-</form>
--->
-    
-    
-<form class="form-horizontal" role="form" method="post" action="index.php">
-	<div class="form-group">
-		<label for="name" class="col-sm-2 control-label">Name</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-			<?php echo "<p class='text-danger'>$errName</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email</label>
-		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-			<?php echo "<p class='text-danger'>$errEmail</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="message" class="col-sm-2 control-label">Message</label>
-		<div class="col-sm-10">
-			<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-			<?php echo "<p class='text-danger'>$errMessage</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-			<?php echo "<p class='text-danger'>$errHuman</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<?php echo $result; ?>	
-		</div>
-	</div>
-</form> 
-    
-    
-
+<div class="wholeform">	
+   
 </div>
 </div>
 </figure>
 </div>
 </section>
-    
-    
-    
-<footer class="container">
+	  
+	  <section class="container">
+	  	<div class="row">
+      		<figure class="col-sm-12 text-center">
+				<div id="move-form">   
+					<form class="form-horizontal" role="form" method="post" action="index.php">
+						<div class="form-group">
+							<label for="name" class="col-sm-2 control-label">Name</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email" class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="message" class="col-sm-2 control-label">Message</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="4" name="message"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-10 col-sm-offset-2">
+								<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-10 col-sm-offset-2">	
+							</div>
+						</div>
+					</form> 
+				</div>
+			</figure>
+		  </div>
+	  </section>
+	  
+	  
+	  
+	<footer class="container">
     <div class="row">
       <p class="col-sm-4">&copy; 2016 Dillon Dragomir</p>
       <ul class="col-sm-8">
@@ -222,6 +161,8 @@
         </li>
       </ul>
     </div>
+	</footer>
+    
 
 </body>
 </html>
