@@ -130,6 +130,12 @@ border-radius: 10px;
    color:#333;   
 }
 
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: darkslateblue;
+}
+
+
 /* spam_trap: This input is hidden. This is here to trick the spam bots*/
 #contactus .spmhidip
 {
