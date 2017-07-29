@@ -1,11 +1,10 @@
-/* Main Styles */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
 header {
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 header .row,
@@ -25,14 +24,14 @@ header nav {
 }
 
 header p {
-  padding: 0 15px;
+  padding: 0 20px;
   margin: 0;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url(Flowers-nature-background-wallpaper-hd.jpg);
+  background-image: url(../img/rainbow_background.jpg);
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -45,54 +44,40 @@ header p {
   margin: 0;
   color: #fff;
 }
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: darkblue;
-  text-shadow: none;
-  background-color: #ffffff;
-}
 
-/* Social Media Styles */
+
 section .row img {
   margin: 0 0 30px;
   width: 100%;
 }
-section .row span img {
-	width: 100px;
+
+.col-md-6 {
+  margin: 0 0 30px;
 }
 
-/* Adjust Form Location */
-#move-form {
-	display: block;
-	margin: auto;
-	width: 75%;
-	margin-bottom: 100px;
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: darkslateblue;
+  text-shadow: none;
+  background-color: #ffffff;
 }
 
-/* Footer Styles */
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: darkslateblue;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
 
 footer {
   font-size: 12px;
   padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-footer {
-  font-size: 12px;
-  padding: 20px 0;
+    background-color:yellow;
 }
 
 footer .col-sm-8 {
